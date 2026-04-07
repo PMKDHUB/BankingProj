@@ -3,5 +3,5 @@ function calculateSI(){
     var n=document.getElementById("nper").value;
     var r=document.getElementById("rate").value;
     var si=(p*n*r)/100;
-    document.getElementById("res").innerHTML += " " + si + " Rs."; 
+    document.getElementById("res").innerHTML = "Result: " + si + " Rs."; 
 }
